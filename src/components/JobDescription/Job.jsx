@@ -28,12 +28,12 @@ const Job = () => {
       >
         All prodigol jobs
       </Button>
-
+ {/* Details about job */}
       <div className="job-container">
         <div className="job-sidebar">
           <div className="sidebar-section">
             <Typography variant="h6">Location</Typography>
-            <Typography>Bangalore</Typography>
+            <Typography>Delhi NCR</Typography>
             <Typography variant="h6">Department</Typography>
             <Typography>Engineering</Typography>
           </div>

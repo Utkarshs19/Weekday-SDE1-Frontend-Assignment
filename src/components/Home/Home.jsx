@@ -8,7 +8,7 @@ const Home = () => {
   const [jobs, setJobs] = useState([]);
   const [filteredJobs, setFilteredJobs] = useState([]);
   const [showFullText, setShowFullText] = useState(false);
-  // const [companyNameFilter, setCompanyNameFilter] = useState("");
+ 
   const navigate = useNavigate(); // Navigate function for routing
   const [filters, setFilters] = useState({
     role: "",
@@ -47,7 +47,7 @@ const Home = () => {
       headers: myHeaders,
       body,
     };
-
+// API Fetching
     try {
       const response = await fetch(
         "https://api.weekday.technology/adhoc/getSampleJdJSON",
